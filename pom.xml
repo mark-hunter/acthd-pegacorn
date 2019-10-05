@@ -11,5 +11,8 @@
     <name>ACTHD :: Pegacorn</name>
     <modules>
         <module>fhirplace</module>
+        <module>mitaf</module>
+        <module>fhirbreak</module>
+        <module>ladon</module>
     </modules>
 </project>

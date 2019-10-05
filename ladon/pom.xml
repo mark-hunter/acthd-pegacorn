@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>au.gov.act.acthd</groupId>
+        <artifactId>acthd-pegacorn</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>ladon</artifactId>
+    <packaging>pom</packaging>
+    <name>ACTHD :: Pegacorn :: Ladon</name>
+  <modules>
+    <module>digitaltwin-patient</module>
+    <module>digitaltwin-practitioner</module>
+    <module>digitaltwin-device</module>
+    <module>digitaltwin-practitionerrole</module>
+    <module>digitaltwin-location</module>
+    <module>digitaltwin-careteam</module>
+    <module>digitaltwin-organisation</module>
+    <module>digitaltwin-encounter</module>
+    <module>digitaltwin-observation</module>
+    <module>digitaltwin-diagnosticreport</module>
+  </modules>
+</project>
